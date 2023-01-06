@@ -53,19 +53,29 @@
     align-items: center;
   }
   /* banner styles */
+  div li {
+    list-style: none;
+    margin-left: 0px;
+    text-align: center;
+  }
+  div ul {
+    display: flex;
+    align-items: center;
+  }
   .banner {
     align-items: center;
     display: flex;
+
     /* margin: 0 200px; */
     margin: 0 200px;
   }
 .banner-title {
     font-weight: 700;
-    font-size: 85px;
+    font-size: 45px;
   }
   .banner-sub-title {
     font-weight: 600;
-    font-size: 45px;
+    font-size: 85px;
     margin-bottom: 20px;
   }
   .banner-description {
